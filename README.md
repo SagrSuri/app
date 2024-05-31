@@ -7,6 +7,8 @@
     "deploy": "gh-pages -d dist", ```
 - open your vite.config.js file --> add--> ``` base: "/reponame/", ```
 
+- Now add our project on GITHUB REPO 
+
 - done--> ``` npm run deploy ```
 
 - [Youtube-Video](https://youtube.com/@sagrsuri)
