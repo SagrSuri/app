@@ -1,4 +1,5 @@
 # How to deploy vite react website
+## Watch on Youtube [Play-NOW](https://youtu.be/UJqgdacfcqY?si=j1bX0Fqkvc1goJpl)
 
 - After Complete your Project run below command on your terminal (make sure you are on our project directory terminal)
 - ``` npm install gh-pages --save-dev ```
@@ -11,4 +12,4 @@
 
 - done--> ``` npm run deploy ```
 
-- [Youtube-Video](https://youtube.com/@sagrsuri)
+
