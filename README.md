@@ -1,8 +1,12 @@
-# React + Vite
+# How to deploy vite react website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- After Complete your Project run below command on your terminal (make sure you are on our project directory terminal)
+- ``` npm install gh-pages --save-dev ```
+- open package.json file --> add on top of name --> ``` "homepage": "https://yourusername.github.io/yourrepository/", ```
+- in package.json two script add--> ``` "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist", ```
+- open your vite.config.js file --> add--> ``` base: "/reponame/", ```
 
-Currently, two official plugins are available:
+- done--> ``` npm run deploy ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Youtube-Video](https://youtube.com/@sagrsuri)
